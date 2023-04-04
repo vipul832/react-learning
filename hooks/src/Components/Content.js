@@ -1,4 +1,5 @@
 import React from "react";
+import UseEffectHook from "./UseEffectHook";
 import UseStateHook from "./UseStateHook";
 const Content = () => {
   return (
@@ -6,6 +7,8 @@ const Content = () => {
       <h1>React Hooks</h1>
       <hr />
       <UseStateHook />
+      <hr />
+      <UseEffectHook />
     </div>
   );
 };
