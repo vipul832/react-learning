@@ -38,16 +38,18 @@ export default function UseEffectHook() {
         {count?.map(({ id, name, username, email, address }) => {
           const { street, suite, city, zipcode } = address;
           return (
-            <UserDisplay
-              keys={id}
-              name={name}
-              username={username}
-              email={email}
-              street={street}
-              suite={suite}
-              city={city}
-              zipcode={zipcode}
-            />
+            <div key={id}>
+              <UserDisplay
+                keys={id}
+                name={name}
+                username={username}
+                email={email}
+                street={street}
+                suite={suite}
+                city={city}
+                zipcode={zipcode}
+              />
+            </div>
           );
         })}
       </div>

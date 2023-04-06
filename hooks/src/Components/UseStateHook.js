@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import UserDisplay from "./UserDisplay";
+import React, { useState } from "react";
 
 export default function UseStateHook() {
   //General structure of UseState

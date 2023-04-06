@@ -1,5 +1,7 @@
 import React from "react";
+import UseContextHook from "./UseContextHook";
 import UseEffectHook from "./UseEffectHook";
+import UseReducerHook from "./UseReducerHook";
 import UseStateHook from "./UseStateHook";
 const Content = () => {
   return (
@@ -9,6 +11,10 @@ const Content = () => {
       <UseStateHook />
       <hr />
       <UseEffectHook />
+      <hr />
+      <UseReducerHook />
+      <hr />
+      <UseContextHook />
     </div>
   );
 };
