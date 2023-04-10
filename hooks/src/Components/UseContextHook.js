@@ -3,7 +3,7 @@ import AppContext from "../contexts/appContext";
 import UseContextUsingConsumer from "./UseContextUsingConsumer";
 
 export default function UseContextHook() {
-  const [state, dispatch] = useContext(AppContext);
+  const [state, dispatch] = useContext(AppContext); // this how we have to distributer
 
   return (
     <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import UseCallBackHook from "./UseCallBackHook";
 import UseContextHook from "./UseContextHook";
 import UseEffectHook from "./UseEffectHook";
 import UseMemoHook from "./UseMemoHook";
@@ -18,6 +19,8 @@ const Content = () => {
       <UseContextHook />
       <hr />
       <UseMemoHook />
+      <hr />
+      <UseCallBackHook />
     </div>
   );
 };
